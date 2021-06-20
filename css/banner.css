@@ -13,10 +13,13 @@
 }
 
 .banner__imagem__caption {
+    align-items: center;
+    justify-content: center;
     background-color:  rgba(74, 74, 74, .5) ;
     bottom: 0;
     color: white;
-    font-size: 3rem;
+    display: flex;
+    font-size: 2rem;
     font-weight: bolder;
     padding: 0.5rem;
     position: absolute;
@@ -28,4 +31,28 @@
 
 .banner__imagem:hover .banner__imagem__caption {
     opacity: 1;
+}
+
+@media screen and (max-width: 1210px) {
+    .banner__imagem__caption {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .banner__imagem__caption {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner__imagem__caption {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .banner__imagem__caption {
+        height: 32px;
+    }
 }
