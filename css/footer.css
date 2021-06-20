@@ -5,11 +5,25 @@
     margin-left: -1rem;
     margin-top: 1rem;
     padding: 1rem;
-    width: calc(100vw - 1rem);
+    position: relative;
+    width: calc(100vw - 2rem);
 }
 
-.footer__redes-sociais--item {
-    margin-right: 1rem;
+.footer--item {
+    margin-right: 4rem;
+}
+
+.footer__links__item {
+    margin-right: 5px;
+}
+
+.footer__links__item img {
+    height: 64px;
+    width: 64px;
+}
+
+.footer__links {
+    display: flex;
 }
 
 .footer__titulo {
@@ -19,4 +33,20 @@
 .footer__direitos {
     text-align: center;
     width: 100%;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__contato {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .footer--item {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
 }
