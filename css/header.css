@@ -46,6 +46,10 @@
     font-weight: bolder;
 }
 
+.header__item-menu--active {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 @media screen and (max-width: 768px) {
     .header__item-menu {
         padding: 0 0.9rem;

@@ -1,12 +1,10 @@
 .gallery {
-    box-sizing: border-box;
-    column-count: 3;
-    column-gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 0.5rem;
 }
 .gallery__photo {
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 0.5rem;
-    width: 100%;
+    width: 33%;
 }
+
