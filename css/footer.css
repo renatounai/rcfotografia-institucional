@@ -1,0 +1,21 @@
+.footer {
+    border-top: 1px solid #d7ccba;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    padding: 1rem;
+    width: calc(100vw - 1rem);
+}
+
+.footer__redes-sociais--item {
+    margin-right: 1rem;
+}
+
+.footer__titulo {
+    font-weight: bolder;
+}
+
+.footer__direitos {
+    text-align: center;
+    width: 100%;
+}

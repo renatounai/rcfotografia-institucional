@@ -1,12 +1,11 @@
 .header {
     align-items: center;
     border-bottom: 1px solid #d7ccba;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-bottom: 10px;
-    padding-top: 1em;
-
+    padding: 1rem 2rem 0.1rem;
 }
 
 .header__logo {
@@ -44,7 +43,7 @@
 }
 
 .header__item-menu:hover {
-    border-bottom: 1px solid #d7ccba;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {

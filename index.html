@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="css/estilos.css">
     <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/banner.css">
-    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="header">
@@ -20,19 +20,44 @@
 
         <nav class="header__nav">
             <ul class="header__menu">
-                <li class="header__item-menu"><a href="#">Boudoir</a></li>
-                <li class="header__item-menu"><a href="#">Retratos</a></li>
-                <li class="header__item-menu"><a href="#">Gestante</a></li>
-                <li class="header__item-menu"><a href="#">Casamentos</a></li>
-                <li class="header__item-menu"><a href="#">Contato</a></li>
+                <li class="header__item-menu"><a href="/boudoir">Boudoir</a></li>
+                <li class="header__item-menu"><a href="/retratos">Retratos</a></li>
+                <li class="header__item-menu"><a href="/gestante">Gestante</a></li>
+                <li class="header__item-menu"><a href="/casamentos">Casamentos</a></li>
+                <li class="header__item-menu"><a href="/contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="banner">
-            <img loading=lazy src="https://source.unsplash.com/featured?couples&1" alt="couples" class="banner__imagem"/>
-    </section>
+        <figure class="banner__imagem">
+            <a href="/boudoir">
+                <img loading=lazy src="https://live.staticflickr.com/65535/50793465636_c422254e42_b.jpg" alt="Imagem Banner Boudoir"/>
+                <figcaption class="banner__imagem__caption">Boudoir</figcaption>
+            </a>
+        </figure>
+        <figure class="banner__imagem">
+            <a href="/retratos">
+                <img loading=lazy src="https://live.staticflickr.com/65535/51199410704_d8dcd920d4_b.jpg" alt="Imagem Banner Retratos femininos"/>
+                <figcaption class="banner__imagem__caption">Ensaios externos</figcaption>
+            </a>
+        </figure>
+        <figure class="banner__imagem">
+            <a href="/gestante">
+                <img loading=lazy src="https://live.staticflickr.com/65535/49876528497_20ea0c1133_b.jpg" alt="Imagem Banner Gestante"/>
+                <figcaption class="banner__imagem__caption">Gestante</figcaption>
+            </a>
+        </figure>
+        <figure class="banner__imagem">
+            <a href="/casamentos">
+                <img loading=lazy src="https://live.staticflickr.com/65535/50847477322_db482f4cda_b.jpg" alt="Imagem Banner Casamentos"/>
+                <figcaption class="banner__imagem__caption">Casamento</figcaption>
+            </a>
+        </figure>
 
+
+    </section>
+<!--
     <main class="main">
         <img class="main__photo" loading=lazy src="https://source.unsplash.com/featured?boudoir&1" alt="sexy photo"/>
         <img class="main__photo" loading=lazy src="https://source.unsplash.com/featured?boudoir&2" alt="sexy photo"/>
@@ -50,5 +75,24 @@
         <img class="main__photo" loading=lazy src="https://source.unsplash.com/featured?boudoir&14" alt="sexy photo"/>
         <img class="main__photo" loading=lazy src="https://source.unsplash.com/featured?boudoir&15" alt="sexy photo"/>
     </main>
+-->
+    <footer class="footer">
+        <section class="footer__redes-sociais footer__redes-sociais--item">
+            <h2 class="footer__titulo">Redes sociais</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/rcfotografia_unai/">RC Fotografia no Instagram</a></li>
+                <li><a href="https://www.instagram.com/rc_boudoir/">RC Boudoir no Instagram</a></li>
+            </ul>
+        </section>
+
+        <section class="footer__contato footer__redes-sociais--item">
+            <h2 class="footer__titulo">Contato</h2>
+            <ul>
+                <li><a href="/contato">Entre em contato</a></li>
+            </ul>
+        </section>
+
+        <div class="footer__direitos">RC Fotografia - 2021</div>
+    </footer>
 </body>
 </html>

@@ -1,10 +1,31 @@
 .banner {
     display: flex;
     margin-top: 10px;
-    max-height: 50vh;
 }
 
 .banner__imagem {
-    margin: 0 auto;
-    max-width: calc(100vw - 2rem);
+    width: 25%;
+    position: relative;
+}
+
+.banner__imagem img {
+    width: 100%;
+}
+
+.banner__imagem__caption {
+    background-color:  rgba(74, 74, 74, .5) ;
+    bottom: 0;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.5s ease;
+    width: 100%;
+}
+
+.banner__imagem:hover .banner__imagem__caption {
+    opacity: 1;
 }
