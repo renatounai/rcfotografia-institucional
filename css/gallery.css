@@ -9,3 +9,14 @@
     margin-bottom: 0.2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .gallery__photo {
+        width: 49.8%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gallery__photo {
+        width: 99%;
+    }
+}
