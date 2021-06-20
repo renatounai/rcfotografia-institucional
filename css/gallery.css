@@ -6,5 +6,6 @@
 }
 .gallery__photo {
     width: 33%;
+    margin-bottom: 0.2rem;
 }
 
