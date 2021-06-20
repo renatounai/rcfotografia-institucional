@@ -1,0 +1,10 @@
+.banner {
+    display: flex;
+    margin-top: 10px;
+    max-height: 50vh;
+}
+
+.banner__imagem {
+    margin: 0 auto;
+    max-width: calc(100vw - 2rem);
+}
