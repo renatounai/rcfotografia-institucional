@@ -3,4 +3,4 @@ Este portal foi feito para ser o MVP de um portfólio de um site de fotografia. 
 
 Originalmente projetado para utilizar apenas html e css.
 
-See: https://rcfotgrafia.art
+See: https://rcfotografia.art/
